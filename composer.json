@@ -1,0 +1,23 @@
+{
+    "name": "pinspb/notes",
+    "description": "A module Notes for Pinerp",
+    "authors": [
+        {
+            "name": "Michael Kulik",
+            "email": "mishkulik@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "~5",
+        "pinspb/layout": "~1",
+        "pinspb/lighter": "~1",
+        "pinspb/staff": "~1",
+        "pinspb/sms-notify": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pinerp\\Notes\\": "src/"
+        }
+    }
+}
